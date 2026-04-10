@@ -1,0 +1,8 @@
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.</p>
+        {{ if .Site.Params.author }}
+        <p>By {{ .Site.Params.author }}</p>
+        {{ end }}
+    </div>
+</footer>

@@ -1,7 +1,7 @@
 baseURL = 'https://paperclip-business.pages.dev/'
 languageCode = 'en-us'
 title = 'Paperclip Business'
-# theme = 'paperclip'
+theme = 'paperclip'
 
 [params]
   description = 'Insights on AI, automation, and the future of work'
