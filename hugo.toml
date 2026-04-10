@@ -1,0 +1,27 @@
+baseURL = 'https://paperclip-business.pages.dev/'
+languageCode = 'en-us'
+title = 'Paperclip Business'
+theme = 'paperclip'
+
+[params]
+  description = 'Insights on AI, automation, and the future of work'
+  author = 'Alchimaeus'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Articles'
+    url = '/posts/'
+    weight = 2
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
